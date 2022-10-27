@@ -1,0 +1,15 @@
+Linux
+
+curl -L https://github.com/storj/storj/releases/latest/download/uplink_linux_amd64.zip -o uplink_linux_amd64.zip
+unzip -o uplink_linux_amd64.zip
+sudo install uplink /usr/local/bin/uplink
+
+uplink share sj://demo/ --url --not-after=none --disallow-lists --base-url=https://link.storjshare.io --access
+
+Mac : 
+
+curl -L https://github.com/storj/storj/releases/latest/download/uplink_darwin_amd64.zip -o uplink_darwin_amd64.zip
+unzip -o uplink_darwin_amd64.zip
+sudo install uplink /usr/local/bin/uplink
+
+uplink share sj://demo/ --url --not-after=none --base-url=https://link.storjshare.io --access 17SkHPGKyrqbLaVsDt7Fnwp28tWqXjUEAm7Fpz638CqJ7JVsdjfoK2NN21qopTwczj8fdkjx9gPEmsuHAFUBr92JK8cTKHQsmkAzy1wYN7tM5XU4DKgSm4ht3GzKQZySX9fhEMUngADTobsGKT5JuhnUEyxy3zAJu96rP76zJ9r3EKbC7hV5w9nA3Bo3NcPFfNJoKPx2rMUxWx7E9XPDzFiMJU5xn9z2N1AMPa9p9aBDgv7yTV18ieZczaBZqsbWRYEa2C3mjP8i5DKu9zxBqDmXvVaPkunxaN3TS
